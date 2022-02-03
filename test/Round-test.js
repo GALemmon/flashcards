@@ -73,11 +73,11 @@ describe('Round', function() {
         round.takeTurn('map()');
         let percentCorrect = round.calcualtePercentCorrect()
         expect(percentCorrect).to.equal('66.67%');
-    })
+    });
     
     it ('should be able to end the round', function() {
         let percentCorrect = round.calcualtePercentCorrect()
         let endMessage = round.endRound(percentCorrect)
         expect(endMessage).to.equal(`** Round over! ** You answered ${percentCorrect} of the questions correctly!`)
-    })
+    });
 });
