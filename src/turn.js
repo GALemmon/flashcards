@@ -18,8 +18,8 @@ class Turn {
         this.isCorrect = (this.guess === this.card.correctAnswer) ? 'true' : 'false';
     };
 
-    giveFeedback(isCorrect) {
-        this.feedback = (isCorrect === 'true') ? 'correct!' : 'incorrect!';
+    giveFeedback() {
+        this.feedback = (this.isCorrect === 'true') ? 'correct!' : 'incorrect!';
     };
 };
 
