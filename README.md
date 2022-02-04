@@ -1,8 +1,10 @@
 # FlashCards Project
 
-    This is a simple terminal based game designed to test and reinforce a basic knowledge of javaScript vocabulary.  It is text based and uses simple controls to move through a deck of flashcards.
+This is a simple terminal based game designed to test and reinforce a basic knowledge of javaScript vocabulary.  
+It is text based and uses simple controls to move through a deck of flashcards.
     
-    The primary learning objective of this program was to introduce the class to TDD (test driven design) practices.  Each of the component .js files was tested using Mocha and Chai.
+The primary learning objective of this program was to introduce the class to TDD (test driven design) practices.  
+Each of the component .js files was tested using Mocha and Chai.
 
 ## Setup
 
@@ -24,7 +26,8 @@ Your project is running...
 
 Followed by the first question.  You will be prompted for each question, have the opportunity to select an answer (using numbers or the arrow keys followed by enter), and will be given feedback. You will be able to play through the entire deck of cards:
 
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+![flash cards example gif]![flashcardExample](https://user-images.githubusercontent.com/91761276/152470960-f2604239-749d-4284-9222-ebba250a7800.gif)
+
 
 
 
