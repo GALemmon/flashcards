@@ -17,7 +17,6 @@ class Game {
   start() {
     this.deck = new Deck(prototypeQuestions.map((question) => new Card(question.id, question.question, question.answers, question.correctAnswer)))    
     this.deck.countCards()
-    console.log(this.deck)
     this.round = new Round(this.deck);
     this.rounds.push(this.round);
     this.printMessage(this.deck, this.round);
