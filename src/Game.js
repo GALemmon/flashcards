@@ -9,14 +9,17 @@ const Card = require('../src/Card');
 
 class Game {
   constructor() {
-    this.deck = [];
-    this.round = {};    
-    
+    this.rounds = [];
+    this.cards = [];
+    this.currentRound = this.rounds[this.rounds.length - 1];
   };
   
   start() {
-    this.deck = new Deck(prototypeQuestions.forEach((element) => new Card(element.id, element.question, element.answers, element.correctAnswer)));
+    this.deck = new Deck(prototypeQuestions.map((question) => new Card(question.id, question.question, question.answers, question.correctAnswer)))    
+    this.deck.countCards()
+    console.log(this.deck)
     this.round = new Round(this.deck);
+    this.rounds.push(this.round);
     this.printMessage(this.deck, this.round);
     this.printQuestion(this.round);
   }

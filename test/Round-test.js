@@ -21,8 +21,8 @@ describe('Round', function() {
        expect(round).to.be.an.instanceof(Round);
     });
 
-    it.skip ('should return the current card', function() {
-        expect(round.returnCurrentCard()).to.equal(deck.cards[0]);
+    it ('should return the current card', function() {
+        expect(round.returnCurrentCard()).to.eql(deck.cards[0]);
     });
   
     it ('should count the turns taken', function() {
