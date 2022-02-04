@@ -26,7 +26,7 @@ Your project is running...
 
 Followed by the first question.  You will be prompted for each question, have the opportunity to select an answer (using numbers or the arrow keys followed by enter), and will be given feedback. You will be able to play through the entire deck of cards:
 
-[flashcardExample](https://user-images.githubusercontent.com/91761276/152470960-f2604239-749d-4284-9222-ebba250a7800.gif)
+![flashcardExample](https://user-images.githubusercontent.com/91761276/152470960-f2604239-749d-4284-9222-ebba250a7800.gif)
 
 
 
